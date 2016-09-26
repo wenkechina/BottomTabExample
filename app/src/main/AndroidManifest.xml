@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="wenke.makelove.bottomtabexample"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".RadioViewPager">
+        </activity>
+        <activity android:name=".FragmentTabHostF">
+        </activity>
+        <activity android:name=".BottomBarFActivity">
+        </activity>
+        <activity android:name=".RadioFrameLayout">
+        </activity>
+        <activity android:name=".FragmentTabHostV">
+        </activity>
+        <activity android:name=".TabLayoutAsIndicator">
+        </activity>
+        <activity android:name=".TabLayoutAsBottomBar">
+        </activity>
+        <activity android:name=".BottomBarVActivity">
+        </activity>
+    </application>
+
+</manifest>
